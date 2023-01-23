@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Tutorial</title>
+</head>
+<style>
+    .container{
+        border: 2px solid red;
+        margin: 3px 0;
+        background: cyan;
+        padding: 9px;
+    }
+    .bg-primary{
+        background: green;
+    }
+</style>
+<body>
+    <h1>Welcome to my JavaScript Tutorial</h1>
+    <div class="container">
+        <Button id="click">Click me</Button>
+    </div>
+    <div class="container">
+        <p>This is Paragraph</p>
+    </div>
+    <script>
+        console.log("Hello World")
+        //alert("me")
+        //document.write("this is document write")
+        console.warn("this ids warning")
+        console.error("this is error")
+
+        let myDate= new Date();
+        console.log(myDate.getMinutes())
+        console.log(myDate.getHours())
+
+
+        // DOM Manipulation 
+        let elem= document.getElementById('click');
+        console.log(elem);
+
+        let elemClass=document.getElementsByClassName("container")
+        console.log(elemClass);
+        // elemClass[0].style.background="yellow"
+        elemClass[0].classList.add("bg-primary");
+    </script>
+</body>
+</html>

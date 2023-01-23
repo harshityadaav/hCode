@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshit's First Website</title>
+</head>
+
+<body>
+    <!-- This heading will be changed in futute -->
+    
+    <h1>THIS IS HEADING</h1>
+    <h2>This is 2nd heading</h2>
+    <h3>This is 3rd heading</h3>
+    <h4>This is 4th heading</h4>
+    <h5>This is 5th heading</h5>
+    <h6>This is 6th heading</h6>
+    <hr>
+    <p>This is paragraph</p>
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam molestias laborum nobis iste eius velit
+        consectetur, quod vitae obcaecati atque asperiores, tempore minus. Cum nemo optio mollitia eum atque hic!</P>
+    <!-- agar hme line ko bda na dikhna kar screen size me dikhna hoga to hmm "setting -> command pal" me jakar " toggle word wrap" me click krenge -->
+    <hr>
+    <a href="https://codewithharry.com">click here to go to code with harry website</a>
+    <!-- Example of absolute link -->
+    <br>
+    <a href="/about.html">About</a>
+    <!-- Example of relative link -->
+    <hr>
+    <br>
+    <img src="https://p1.pxfuel.com/preview/508/847/800/forest-natural-green-man-nature-plant.jpg" alt="Image error"
+        width="300px">
+    <!-- absolue URL -->
+    <hr>
+    <img src="/image.jpg" alt="Image error" width="300px">
+    <!-- relative URL -->
+
+    <hr>
+
+    <!-- bold italic and underline tag -->
+    <br>
+    <b>This is bold</b>
+    <br>
+    <i>This is italic</i>
+    <br>
+    <u>This is underline</u>
+    <br>
+    <hr>
+    <big>This is big</big>
+    <br>
+    <small>This is small</small>
+
+    <hr>
+    <!-- subscript and superscript -->
+    <p>CO <sub>2</sub></p>
+    <p>ax <sup>2</sup>+bx+c</p>
+
+    <hr>
+
+    <pre>
+   int main()
+    {
+        int n1, n2, max;
+    
+        cout << "Enter two numbers: ";
+        cin >> n1 >> n2;
+        
+        // maximum value between n1 and n2 is stored in max
+        max = (n1 > n2) ? n1 : n2;
+    
+        do
+        {
+            if (max % n1 == 0 && max % n2 == 0)
+            {
+                cout << "LCM = " << max;
+                break;
+            }
+            else
+                ++max;
+        } while (true);
+        
+        return 0;
+    }
+</pre>
+<!-- With the help of pre tag we right same in web page -->
+
+</body>
+
+</html>
